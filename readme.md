@@ -42,3 +42,7 @@ Efetue...
 
 A minha ficou [aqui](https://wavwtms5c8.execute-api.us-east-1.amazonaws.com/dev/hello-world) 
 
+
+### Curso free na Udemy
+
+https://www.udemy.com/nanosservicos-serverless-orientados-a-eventos/
