@@ -23,12 +23,12 @@ __Testando__
 
 ### Deploy
 
-Para fazer o deploy, precisa instalar o (AWS CLI)[https://docs.aws.amazon.com/cli/].
+Para fazer o deploy, precisa instalar o [AWS CLI](https://docs.aws.amazon.com/cli/).
 
-Precisa criar um arquivo chamado `seu-usuario/.aws/credentials` conforme a (documentação)[https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-configure-files.html].
+Precisa criar um arquivo chamado `seu-usuario/.aws/credentials` conforme a [documentação](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-configure-files.html).
 
 
-Configure o [proxy](configurando-o-proxy.md) caso precise.
+Configure o (proxy)[configurando-o-proxy.md] caso precise.
 
 Efetue...
 
