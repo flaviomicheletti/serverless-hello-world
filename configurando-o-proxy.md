@@ -4,13 +4,13 @@ No Windows 10, abra o arquivo `C:\Program Files\nodejs\node_modules\serverless\l
 
 Procure por...
 
- // Use HTTPS Proxy (Optional)
-    const proxy = process.env.proxy
-      || process.env.HTTP_PROXY
-      || process.env.http_proxy
-      || process.env.HTTPS_PROXY
-      || process.env.https_proxy
-      || 'http://your-awesome-proxy:port';
+     // Use HTTPS Proxy (Optional)
+        const proxy = process.env.proxy
+          || process.env.HTTP_PROXY
+          || process.env.http_proxy
+          || process.env.HTTPS_PROXY
+          || process.env.https_proxy
+          || 'http://your-awesome-proxy:port';
 
 ... e altere para o seu proxy.
 
