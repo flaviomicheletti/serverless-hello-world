@@ -37,8 +37,8 @@ Efetue...
 
 ### Teste final
 
-   # Your function is deployed!
-   $ http://xyz.amazonaws.com/hello-world
+    # Your function is deployed!
+    $ http://xyz.amazonaws.com/hello-world
 
 A minha ficou [aqui](https://wavwtms5c8.execute-api.us-east-1.amazonaws.com/dev/hello-world) 
 
