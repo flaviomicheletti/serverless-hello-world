@@ -30,7 +30,7 @@ __Teste sua instalação__
 
 Abra um terminal e digite 
     
-     erverless
+     serverless
       
 
 ### Criando o "Hello World"
