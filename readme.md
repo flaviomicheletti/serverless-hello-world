@@ -1,7 +1,7 @@
 # Serverless - Hello world
 
 Site oficial https://serverless.com/
-Documentação https://serverless.com/framework/docs/providers/aws/guide/intro/  
+Documentação https://serverless.com/framework/docs/providers/aws/guide/intro/
 
 Você vai precisar...
 
@@ -14,55 +14,55 @@ Eu explico isso no caminho...
 
 ### Instalando o serverless
 
-Antes do serverless vem a instalação do próprio __nodejs__.
+Antes do serverless, vem a instalação do __nodejs__.
 
-Estando o node devidamente instalado em sua máquina.
+Estando o node devidamente instalado em sua máquina, execute...
 
     // Step 1. Install serverless globally
     $ npm install serverless -g
 
 Não precisa configurar variáveis de ambiente.
 
-Instalei em um Windows 10.  
+Instalei em um Windows 10.
 
 __Teste sua instalação__
 
-Abra um terminal e digite 
-    
-     erverless
-      
+Abra um terminal e digite
+
+     serverless
+
 
 ### Criando o "Hello World"
 
      // Step 2. Create a serverless function
      $ serverless create --template hello-world
 
-Este repositório e o resultado do comando acima. quero dizer que já executei o comando. 
+Este repositório e o resultado do comando acima. quero dizer que já executei o comando.
 Então, caso queira fazer um clone deste repositório e vê-lo funcionando, experimente...
 
      // clonando...
      git clone https://github.com/flaviomicheletti/serverless-hello-world.git
-    
+
 	// instalando
      cd serverless-hello-world
-     serverless install --url https://github.com/flaviomicheletti/serverless-hello-world    
+     serverless install --url https://github.com/flaviomicheletti/serverless-hello-world
 
-  
 
-### Deployando  
 
-Para fazer o deploy, precisa instalar o [AWS CLI](https://docs.aws.amazon.com/cli/).  
+### Deployando
 
-Precisa criar um arquivo chamado `seu-usuario/.aws/credentials` conforme a [documentação](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-configure-files.html).  
-  
+Para fazer o deploy, precisa instalar o [AWS CLI](https://docs.aws.amazon.com/cli/).
+
+Precisa criar um arquivo chamado `seu-usuario/.aws/credentials` conforme a [documentação](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-configure-files.html).
+
 Configure o [proxy](configurando-o-proxy.md) caso precise.
 
-Efetue...  
+Efetue...
 
     // Step 3. deploy to cloud provider
      $ serverless deploy
 
-Se tudo der certo, voc~E verá algo semelhanta a...
+Se tudo der certo, você verá algo semelhanta a...
 
      $ serverless deploy
      Serverless: Packaging service...
@@ -102,11 +102,11 @@ Se tudo der certo, voc~E verá algo semelhanta a...
 
 Onde `xyz` deve ser atualizado pela sua informação.
 
-Quando eu não tiro do ar, a minha fica disponível aqui https://gelefrwtzl.execute-api.us-east-1.amazonaws.com/dev/hello-world  
+Quando eu não tiro do ar, a minha fica disponível aqui https://gelefrwtzl.execute-api.us-east-1.amazonaws.com/dev/hello-world
 
 
 ### Curso free na Udemy
 
-Onde eu aprendi tudo isso ?  
+Onde eu aprendi tudo isso ?
 
 https://www.udemy.com/nanosservicos-serverless-orientados-a-eventos/
