@@ -41,7 +41,7 @@ Abra um terminal e digite
      // Step 2. Create a serverless function
      $ serverless create --template hello-world
 
-Este repositório e o resultado do comando acima. quero dizer que já executei o comando.
+Este repositório é o resultado do comando acima, quero dizer que já executei o comando.
 Então, caso queira fazer um clone deste repositório e vê-lo funcionando, experimente...
 
      // clonando...
